@@ -10,6 +10,7 @@ namespace fukuv0525
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top - 15;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,6 +31,7 @@ namespace fukuv0525
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("ä›ñÏóIê^");
+            label1.Visible = false;
         }
     }
 }
